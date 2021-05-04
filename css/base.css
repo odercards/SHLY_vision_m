@@ -12,6 +12,7 @@ html, body, canvas {
   height: 100%;
   display: block;
   background: transparent;
+  overflow-x: hidden;
 }
 
 .clearfix:after, .clearfix:before {
