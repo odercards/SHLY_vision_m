@@ -8,11 +8,22 @@
     <link type="text/css" rel="stylesheet" href="../css/index.css"/>
   </head>
   <body>
-    <div id="nav-bar"></div>
-    <div id="title"><img class="logo" src="../img/c-font3.png" alt=""/><img class="img1" src="../img/02-13989761442204.png" alt=""/><img class="img2" src="../img/03-13989837604418.png" alt=""/>
+    <div id="menu_btn">
+      <label class="la" for="toggle">
+        <svg class="ham hamRotate" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+          <path class="line top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40"></path>
+          <path class="line middle" d="m 30,50 h 40"></path>
+          <path class="line bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40"> </path>
+        </svg>
+      </label>
+    </div>
+    <input id="toggle" type="checkbox"/><span class="menu_bg"></span>
+    <div id="title"><img class="img" src="../img/星體/Sun23.png" alt=""/><img class="logo" src="../img/c-font3.png" alt=""/>
       <p>星象之形必有因，破解謠言為君醒</p>
     </div>
-    <div id="animation"> </div>
+    <div id="animation"> 
+      <div class="tri"></div>
+    </div>
     <div id="manga"> </div>
     <div id="about"></div>
   </body>
